@@ -11,9 +11,7 @@ import java.util.List;
 
 public class GraphLoader {
     
-    /**
-     * Loads a single graph from JSON file (backward compatibility).
-     */
+
     public static GraphData loadFromJson(String filename) throws IOException {
         Gson gson = new Gson();
         JsonObject json = gson.fromJson(new FileReader(filename), JsonObject.class);

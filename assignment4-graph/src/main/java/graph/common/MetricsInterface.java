@@ -1,5 +1,6 @@
 package graph.common;
 
+
 public interface MetricsInterface {
     void reset();
     long getElapsedTime();

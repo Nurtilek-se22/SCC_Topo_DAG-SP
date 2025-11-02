@@ -1,14 +1,9 @@
 package graph.common;
 
-/**
- * Tracks performance metrics for all algorithms.
- * Measures execution time and operation counts (comparisons, updates, etc.)
- */
 public class Metrics implements MetricsInterface {
     private long startTime;
     private double executionTimeMs = 0.0;
     private String algorithmName;
-
     // SCC-specific metrics (Tarjan)
     private long dfsVisits = 0;
     private long edgeExplorations = 0;
