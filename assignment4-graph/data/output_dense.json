@@ -1,0 +1,275 @@
+{
+  "results": [
+    {
+      "graph_id": 0,
+      "input_stats": {
+        "vertices": 10,
+        "edges": 15,
+        "density": "unknown",
+        "variant": "unknown",
+        "source": 0
+      },
+      "tarjan_scc": {
+        "num_sccs": 7,
+        "sccs": [
+          [
+            4
+          ],
+          [
+            2
+          ],
+          [
+            9,
+            3,
+            6,
+            0
+          ],
+          [
+            1
+          ],
+          [
+            7
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "operations_count": 60,
+        "execution_time_ms": 0.055292
+      },
+      "condensation_graph": {
+        "vertices": 7,
+        "edges": 8
+      },
+      "topological_sort": {
+        "topological_order": [
+          3,
+          5,
+          6,
+          4,
+          2,
+          0,
+          1
+        ],
+        "operations_count": 21,
+        "execution_time_ms": 0.050708
+      },
+      "shortest_path": {
+        "source": 0,
+        "path": [
+          2,
+          0
+        ],
+        "edges": [
+          {
+            "u": 2,
+            "v": 0,
+            "w": 10.0
+          }
+        ],
+        "path_length": 10.0,
+        "operations_count": 4,
+        "execution_time_ms": 0.056833,
+        "total_operations_count": 85,
+        "total_execution_time_ms": 0.162833
+      },
+      "longest_path": {
+        "critical_path_length": 18.0,
+        "critical_path": [
+          3,
+          2,
+          0
+        ],
+        "edges": [
+          {
+            "u": 3,
+            "v": 2,
+            "w": 8.0
+          },
+          {
+            "u": 2,
+            "v": 0,
+            "w": 10.0
+          }
+        ],
+        "operations_count": 6,
+        "execution_time_ms": 0.005208,
+        "total_operations_count": 87,
+        "total_execution_time_ms": 0.11120800000000002
+      }
+    },
+    {
+      "graph_id": 0,
+      "input_stats": {
+        "vertices": 8,
+        "edges": 20,
+        "density": "unknown",
+        "variant": "unknown",
+        "source": 0
+      },
+      "tarjan_scc": {
+        "num_sccs": 1,
+        "sccs": [
+          [
+            5,
+            2,
+            4,
+            1,
+            7,
+            3,
+            6,
+            0
+          ]
+        ],
+        "operations_count": 64,
+        "execution_time_ms": 0.059541
+      },
+      "condensation_graph": {
+        "vertices": 1,
+        "edges": 0
+      },
+      "topological_sort": {
+        "topological_order": [
+          0
+        ],
+        "operations_count": 3,
+        "execution_time_ms": 0.0765
+      },
+      "shortest_path": {
+        "source": 0,
+        "path": [
+          0
+        ],
+        "edges": [],
+        "path_length": 0.0,
+        "operations_count": 0,
+        "execution_time_ms": 0.057875,
+        "total_operations_count": 67,
+        "total_execution_time_ms": 0.193916
+      },
+      "longest_path": {
+        "critical_path_length": 0.0,
+        "critical_path": [
+          0
+        ],
+        "edges": [],
+        "operations_count": 0,
+        "execution_time_ms": 0.038625,
+        "total_operations_count": 67,
+        "total_execution_time_ms": 0.174666
+      }
+    },
+    {
+      "graph_id": 0,
+      "input_stats": {
+        "vertices": 30,
+        "edges": 120,
+        "density": "unknown",
+        "variant": "unknown",
+        "source": 0
+      },
+      "tarjan_scc": {
+        "num_sccs": 3,
+        "sccs": [
+          [
+            21
+          ],
+          [
+            12,
+            13,
+            3,
+            7,
+            27,
+            22,
+            8,
+            6,
+            14,
+            10,
+            26,
+            16,
+            15,
+            5,
+            11,
+            23,
+            28,
+            18,
+            9,
+            20,
+            29,
+            4,
+            24,
+            17,
+            25,
+            1,
+            19,
+            0
+          ],
+          [
+            2
+          ]
+        ],
+        "operations_count": 330,
+        "execution_time_ms": 0.055916
+      },
+      "condensation_graph": {
+        "vertices": 3,
+        "edges": 2
+      },
+      "topological_sort": {
+        "topological_order": [
+          2,
+          1,
+          0
+        ],
+        "operations_count": 9,
+        "execution_time_ms": 0.083084
+      },
+      "shortest_path": {
+        "source": 0,
+        "path": [
+          1,
+          0
+        ],
+        "edges": [
+          {
+            "u": 1,
+            "v": 0,
+            "w": 4.0
+          }
+        ],
+        "path_length": 4.0,
+        "operations_count": 2,
+        "execution_time_ms": 0.037792,
+        "total_operations_count": 341,
+        "total_execution_time_ms": 0.176792
+      },
+      "longest_path": {
+        "critical_path_length": 8.0,
+        "critical_path": [
+          2,
+          1,
+          0
+        ],
+        "edges": [
+          {
+            "u": 2,
+            "v": 1,
+            "w": 4.0
+          },
+          {
+            "u": 1,
+            "v": 0,
+            "w": 4.0
+          }
+        ],
+        "operations_count": 4,
+        "execution_time_ms": 0.00125,
+        "total_operations_count": 343,
+        "total_execution_time_ms": 0.14025
+      }
+    }
+  ]
+}
